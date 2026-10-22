@@ -1,0 +1,15 @@
+Please follow these Commands in order to Execute the code and to see test results.
+
+python3 --version
+node --version
+npm --version
+ls -la
+cd task1_knowledge_brain
+ls -la
+python3 -m uvicorn task1_knowledge_brain.app:app --reload
+
+** We need to Install to check the Task 2 and Task3 
+npm install
+cd task2_inbox_agent
+ls -la
+find . -maxdepth 3 -type f | sort
